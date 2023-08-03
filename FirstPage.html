@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fill Details</title>
+</head>
+<body bgcolor="35A29F">
+    <h2>Let me Know You!</h2>
+    <h3>Before you Know me...</h3>
+    <fieldset>
+        <legend>Kindly Fill Your Details</legend>
+    <form action="home.html">
+        <table>
+            <tr>
+                <td>
+                    <label>Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="name" required placeholder="Ex:Govardhan"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Contact:</label>
+                </td>
+                <td>
+                    <input type="tel"  name="con" required maxlength="10"placeholder="Ex:9876543210"><br>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="Gen" value="M" required>M
+                    <input type="radio" name="Gen" value="F" required>F 
+                    <input type="radio" name="Gen" value="O" required>Others<br> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" required placeholder="ex:rajala@gmail.com"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date:</label>
+                </td>
+                <td>
+                    <input type="date" name="date" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</fieldset>
+</body>
+</html>
